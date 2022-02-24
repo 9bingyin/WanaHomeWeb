@@ -8,13 +8,15 @@
   },
   "dependencies": {
     "axios": "^0.21.4",
+    "bootstrap-select": "^1.13.18",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
+    "js-cookie": "^3.0.1",
     "vue": "^2.6.11",
+    "vue-bootstrap-selectpicker": "^1.0.6",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
-    "vue-router": "^3.2.0",
-    "js-cookie": "^3.0.1"
+    "vue-router": "^3.2.0"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.1",

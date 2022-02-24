@@ -1,17 +1,17 @@
 <template>
     <div>
         <div class="floating_button">
-            <b-btn class="my-2" @click="side_vis=!side_vis" pill size="lg"
+            <b-btn class="my-2 umami--click--state-menu-button" @click="side_vis=!side_vis" pill size="lg"
             v-b-tooltip.hover.lefttop.dh200="'服务器'">
                 <b-icon-menu-button/>
             </b-btn>
             <br/>
-            <b-btn class="my-2" @click="$emit('update')" pill size="lg"
+            <b-btn class="my-2 umami--click--state-refresh-button" @click="$emit('update')" pill size="lg"
             v-b-tooltip.hover.lefttop.dh200="'重载'">
                 <b-icon-arrow-clockwise/>
             </b-btn>
             <br/>
-            <b-btn class="my-2" @click="$router.push({name:'ServerList'})" pill size="lg"
+            <b-btn class="my-2 umami--click--state-return-button" @click="$router.push({name:'ServerList'})" pill size="lg"
             v-b-tooltip.hover.lefttop.dh200="'返回列表'">
                 <b-icon-arrow-return-left/>
             </b-btn>
