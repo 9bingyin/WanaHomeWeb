@@ -14,10 +14,10 @@ jobs:
         cd wana_home_front
         npm install
         npm run build
-      env:
-        CI: true
+        mkdir release
+        cp wana_home_back/front release
     - name: Uploading
         uses: actions/upload-artifact@v1
         with:
           name: front_release
-          path: wana_home_back/front
+          path: release
