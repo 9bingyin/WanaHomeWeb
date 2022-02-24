@@ -17,7 +17,7 @@ jobs:
         mkdir release
         cp wana_home_back/front release
     - name: Uploading
-        uses: actions/upload-artifact@v1
-        with:
-          name: front_release
-          path: release
+      uses: actions/upload-artifact@v1
+      with:
+         name: front_release
+         path: release
