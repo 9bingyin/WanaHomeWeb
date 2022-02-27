@@ -18,7 +18,7 @@
                 <p>当前版本：国服5.58</p>
                 <p>使用方式可查看NGA<a href="https://ngabbs.com/read.php?tid=28626126" target="_blank">原帖</a></p>
                 <p>令牌下载链接：<a href="https://bingyintech.coding.net/s/dba35ecc-92d0-47fa-8049-6120465b5081" target="_blank">国内</a> <a href="https://eastmet-my.sharepoint.com/:u:/g/personal/bingyintech_edu-icloud_com/EfiIXD-RWftInpqlN2hZIKEBtNDFbOvc76uwgs4Uaduo0Q?e=k4QyeL" target="_blank">国外</a></p>
-                <p>数据库公开下载链接（每天凌晨3点更新数据）：<a href="https://1drv.ms/u/s!AlHesNgJkUQuswYWUhoJ2saux4qx?e=eZsIEn" target="_blank">点击下载</a></p>
+                <p>数据库公开下载链接（每天凌晨3点更新数据）：<a href="https://eastmet-my.sharepoint.com/:f:/g/personal/bingyintech_edu-icloud_com/EqJKlnTUW0BHgIBk-wPr4VkBJxSLwkopDkOrziMoTSpA8A?e=teJecL" target="_blank">点击下载</a></p>
                 <p>冰音の博客：<a href="https://9bingyin.com" target="_blank">https://9bingyin.com</a></p>
             </b-col>
             <b-col>
