@@ -158,7 +158,7 @@ export default class Ngld extends Vue {
             return 3
     }
 
-    opcode = "0292"
+    opcode = "00C0"
 
     save_token() {
         const reader = new FileReader();
