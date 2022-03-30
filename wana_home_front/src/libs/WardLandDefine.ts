@@ -17,7 +17,7 @@ export const territories: { [k: number]: { full: string, short: string } } = {
     341: {full: "高脚孤丘", short: "沙"},
     340: {full: "薰衣草苗园", short: "森"},
     641: {full: "白银乡", short: "白"},
-    //979: {full: "穹顶皓天", short: "天"},
+    979: {full: "穹顶皓天", short: "天"},
 }
 export const ward_cnt = 24
 export const house_cnt = 60
