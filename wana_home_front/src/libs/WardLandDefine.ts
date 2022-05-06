@@ -101,7 +101,7 @@ export const servers: { [key: number]: string } = {
     1192: "水晶塔",
     1180: "太阳海岸",
     1186: "伊修加德",
-	1193: "红茶川",
+	1201: "红茶川",
 }
 
 export function house_size(size_id: number) {
