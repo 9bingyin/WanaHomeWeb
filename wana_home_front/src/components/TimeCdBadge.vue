@@ -29,11 +29,11 @@ export default class TimeCdBadge extends Vue {
         var diff_sec = Math.floor(+new Date() / 1000) - this.ts
         var rtn = ''
         if (diff_sec >= 3600) {
-            rtn += `${Math.round(diff_sec / 3600)}h `;
+            rtn += `${Math.floor(diff_sec / 3600)}h `;
             diff_sec %= 3600;
         }
         if (diff_sec >= 60) {
-            rtn += `${Math.round(diff_sec / 60)}m `;
+            rtn += `${Math.floor(diff_sec / 60)}m `;
             diff_sec %= 60;
         }
         rtn += `${diff_sec}s`;
