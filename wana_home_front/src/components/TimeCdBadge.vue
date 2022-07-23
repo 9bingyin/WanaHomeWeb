@@ -26,7 +26,7 @@ export default class TimeCdBadge extends Vue {
 
     date_format() {
         if (this.stop !== undefined && this.str) return
-        var diff_sec = Math.round(+new Date() / 1000) - this.ts
+        var diff_sec = Math.floor(+new Date() / 1000) - this.ts
         var rtn = ''
         if (diff_sec >= 3600) {
             rtn += `${Math.round(diff_sec / 3600)}h `;
