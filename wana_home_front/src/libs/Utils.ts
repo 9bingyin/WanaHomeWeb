@@ -38,5 +38,5 @@ export function time_diff_sec(diff_sec: number, eng = true) {
 }
 
 export function time_diff(time: number, eng = true) {
-    return time_diff_sec(Math.round(+new Date() / 1000) - time, eng)
+    return time_diff_sec(Math.round(+new Date() / 1000), eng)
 }
