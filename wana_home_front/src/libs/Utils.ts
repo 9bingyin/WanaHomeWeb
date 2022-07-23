@@ -26,11 +26,11 @@ export function date_format(date: Date, format_string: string) {
 export function time_diff_sec(diff_sec: number, eng = true) {
     var rtn = ''
     if (diff_sec >= 3600) {
-        rtn += `${Math.round(diff_sec / 3600)}${eng ? 'h' : '小时'}`;
+        rtn += `${Math.floor(diff_sec / 3600)}${eng ? 'h' : '小时'}`;
         diff_sec %= 3600;
     }
     if (diff_sec >= 60) {
-        rtn += `${Math.round(diff_sec / 60)}${eng ? 'm' : '分钟'}`;
+        rtn += `${Math.floor(diff_sec / 60)}${eng ? 'm' : '分钟'}`;
         diff_sec %= 60;
     }
     rtn += `${diff_sec}${eng ? 's' : '秒'}`;
@@ -38,5 +38,5 @@ export function time_diff_sec(diff_sec: number, eng = true) {
 }
 
 export function time_diff(time: number, eng = true) {
-    return time_diff_sec(Math.round(+new Date() / 1000) - time, eng)
+    return time_diff_sec(Math.floor(+new Date() / 1000) - time, eng)
 }
