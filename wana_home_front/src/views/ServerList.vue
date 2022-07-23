@@ -5,7 +5,7 @@
                 <p>冰音のWanaHomeWeb</p>
             </b-col>
             <b-col class="text-right" md="auto">
-                <b-btn size="sm" variant="outline-info umami--click--refresh-button" @click="update()">
+                <b-btn size="sm" variant="outline-info refresh-button" @click="update()">
                     <b-icon-arrow-clockwise/>
                 </b-btn>
             </b-col>
@@ -24,7 +24,7 @@
                 <b-col v-for="dc in dc_server" :key="dc.dc_name" class="shadow-sm rounded m-2 p-2">
                     {{ dc.dc_name }}
                     <div>
-                        <b-btn class="m-1 umami--click--dc-button" v-for="(w_name,w_id) in dc.servers"
+                        <b-btn class="m-1 dc-button" v-for="(w_name,w_id) in dc.servers"
                                :key="w_id" size="sm" variant="success" :disabled="!(w_id in servers)"
                                v-b-tooltip.hover.top :title="`最近更新：${time_diff(servers[w_id],false)}前`"
                                @click="$router.push({name:'State',params:{server:w_id}})">
