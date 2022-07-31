@@ -12,7 +12,7 @@
         </b-row>
         <b-row cols="1" cols-md="2">
             <b-col class="text-center">
-                <p><b>该网站所有数据均为玩家自发更新</b></p>
+                <p><b>该网站所有数据均为玩家自发上传</b></p>
                 <p>原项目：<a href="https://github.com/nyaoouo/WanaHomeWeb" target="_blank">https://github.com/nyaoouo/WanaHomeWeb</a></p>
                 <p><a href="https://wanahomeweb.statuspage.io" target="_blank">状态页</a>（服务状态监控及维护通知）</p>
                 <p>当前版本：国服6.05</p>
