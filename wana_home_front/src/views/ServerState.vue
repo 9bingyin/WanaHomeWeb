@@ -48,7 +48,7 @@ import {Change, HouseFullData, get_server_base} from "@/axios";
 import ChangeEventLine from "@/components/ChangeEventLine.vue";
 import HouseLabel from "@/components/HouseLabel.vue";
 import TimeCdBadge from "@/components/TimeCdBadge.vue";
-import {house_size, servers, price, territories} from "@/libs/WardLandDefine";
+import {house_size, servers, territories} from "@/libs/WardLandDefine";
 import SideBar from "@/components/SideBar.vue";
 import {time_diff} from "@/libs/Utils";
 
@@ -67,7 +67,7 @@ export default class ServerState extends Vue {
     house_size = house_size
     servers = servers
     time_diff = time_diff
-    sortName = price
+    sortName = house_size
 
     on_sale_fields = [
         {
