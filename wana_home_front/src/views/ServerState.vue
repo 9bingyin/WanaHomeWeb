@@ -17,9 +17,9 @@
                     <template #cell(start_sell)="data">
                         <time-cd-badge :ts="data.value"/>
                     </template>
-                    <template #cell(size)="data">
+                    <!--template #cell(size)="data">
                         {{ house_size(data.value) }}
-                    </template>
+                    </template-->
                     <template #table-busy>
                         <div class="text-center my-2">
                             <strong>没有空置记录...</strong>
@@ -72,7 +72,6 @@ export default class ServerState extends Vue {
         {
             key: 'house',
             label: '空置房屋',
-            sortable: true,
         },
         {
             key: 'price',
@@ -80,11 +79,11 @@ export default class ServerState extends Vue {
             label: "价钱",
             sortable: true,
         },
-        {
-            key: 'start_sell',
-            label: '空置时间',
-            sortable: true,
-        },
+        //{
+        //    key: 'start_sell',
+        //    label: '空置时间',
+        //    sortable: true,
+        //},
         {
             key: 'size',
             label: '房型',
