@@ -71,13 +71,14 @@ export default class ServerState extends Vue {
     on_sale_fields = [
         {
             key: 'house',
-            label: '空置房屋'
+            label: '空置房屋',
+            sortable: true,
         },
         {
             key: 'price',
             //class: "d-none d-sm-block",
             label: "价钱",
-            sortable: true
+            sortable: true,
         },
         {
             key: 'start_sell',
