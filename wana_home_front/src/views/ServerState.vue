@@ -14,9 +14,9 @@
                     <template #cell(price)="data">
                         {{ data.value }} Gil
                     </template>
-                    <!--template #cell(start_sell)="data">
+                    <template #cell(start_sell)="data">
                         <time-cd-badge :ts="data.value"/>
-                    </template-->
+                    </template>
                     <template #cell(size)="data">
                         {{ house_size(data.value) }}
                     </template>
@@ -67,6 +67,7 @@ export default class ServerState extends Vue {
     house_size = house_size
     servers = servers
     time_diff = time_diff
+    sortName = price
 
     on_sale_fields = [
         {
@@ -79,11 +80,11 @@ export default class ServerState extends Vue {
             label: "价钱",
             sortable: true,
         },
-        //{
-        //    key: 'start_sell',
-        //    label: '空置时间',
-        //    sortable: true,
-        //},
+        {
+            key: 'start_sell',
+            label: '空置时间',
+            sortable: true,
+        },
         {
             key: 'size',
             label: '房型',
