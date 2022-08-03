@@ -48,7 +48,7 @@ import {Change, HouseFullData, get_server_base} from "@/axios";
 import ChangeEventLine from "@/components/ChangeEventLine.vue";
 import HouseLabel from "@/components/HouseLabel.vue";
 import TimeCdBadge from "@/components/TimeCdBadge.vue";
-import {house_size, servers, territories} from "@/libs/WardLandDefine";
+import {house_size, servers, price, territories} from "@/libs/WardLandDefine";
 import SideBar from "@/components/SideBar.vue";
 import {time_diff} from "@/libs/Utils";
 
