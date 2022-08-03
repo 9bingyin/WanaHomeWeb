@@ -14,12 +14,12 @@
                     <template #cell(price)="data">
                         {{ data.value }} Gil
                     </template>
-                    <template #cell(start_sell)="data">
+                    <!--template #cell(start_sell)="data">
                         <time-cd-badge :ts="data.value"/>
-                    </template>
-                    <!--template #cell(size)="data">
-                        {{ house_size(data.value) }}
                     </template-->
+                    <template #cell(size)="data">
+                        {{ house_size(data.value) }}
+                    </template>
                     <template #table-busy>
                         <div class="text-center my-2">
                             <strong>没有空置记录...</strong>
