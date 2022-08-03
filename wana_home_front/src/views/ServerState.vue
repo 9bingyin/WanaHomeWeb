@@ -67,7 +67,6 @@ export default class ServerState extends Vue {
     house_size = house_size
     servers = servers
     time_diff = time_diff
-    sortName = house_size
 
     on_sale_fields = [
         {
