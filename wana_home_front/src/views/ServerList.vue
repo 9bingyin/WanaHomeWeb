@@ -15,7 +15,7 @@
                 <p><b>该网站所有数据均为玩家自发上传</b></p>
                 <p>原项目：<a href="https://github.com/nyaoouo/WanaHomeWeb" target="_blank">https://github.com/nyaoouo/WanaHomeWeb</a></p>
                 <p><a href="https://wanahomeweb.statuspage.io" target="_blank">状态页</a>（服务状态监控及维护通知）</p>
-                <p>当前版本：国服6.05</p>
+                <p>当前版本：国服6.1</p>
                 <p>使用方式可查看<a href="https://www.yuque.com/9bingyin/wanahome/ngld" target="_blank">教程</a></p>
                 <p>令牌下载链接：<a href="https://www.jianguoyun.com/p/DUvspAkQsNyUChi9nKgE" target="_blank">国内</a> <a href="https://eastmet-my.sharepoint.com/:u:/g/personal/bingyintech_edu-icloud_com/EfiIXD-RWftInpqlN2hZIKEBtNDFbOvc76uwgs4Uaduo0Q?e=k4QyeL" target="_blank">国外</a></p>
                 <p>数据库公开下载链接（每天凌晨3点更新数据）：<a href="https://eastmet-my.sharepoint.com/:f:/g/personal/bingyintech_edu-icloud_com/EqJKlnTUW0BHgIBk-wPr4VkBJxSLwkopDkOrziMoTSpA8A?e=teJecL" target="_blank">点击下载</a></p>
