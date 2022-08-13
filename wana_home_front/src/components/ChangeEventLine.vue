@@ -26,11 +26,11 @@
             被
             <b-badge>{{ change.param1 }}</b-badge>
             购入
-            <a v-if="change.param2">（历时<b-badge>{{time_fmt(change.param2)}}</b-badge>）</a>
+            <!--a v-if="change.param2">（历时<b-badge>{{time_fmt(change.param2)}}</b-badge>）</a-->
         </a>
-        <a v-else-if="change.event_type='price_refresh'">
+        <!--a v-else-if="change.event_type='price_refresh'">
             价格/cd 刷新
-        </a>。
+        </a-->。
     </a>
 </template>
 
