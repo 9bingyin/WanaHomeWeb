@@ -191,16 +191,16 @@ def sync_data(request):
                                                                              param1=new_owner, param2=str(current_time - dbo.start_sell),
                                                                              record_time=current_time))
                                 dbo.start_sell = 0
-                    elif old_price > new_price:
-                        new_change_record.append(
-                            models.ChangeRecord(house=dbo, event_type="price_reduce", param1=str(old_price),
-                                                param2=str(new_price), record_time=current_time, ))
-                    elif old_price < new_price or new_price in full_price and get_house_price_check_time(dbo.start_sell) < current_time:
-                        #new_change_record.append(models.ChangeRecord(house=dbo, event_type="price_refresh",
-                        #                                             param1=f"{old_price}/{dbo.start_sell}/{get_house_price_check_time(dbo.start_sell)}",
-                        #                                             param2=f"{new_owner}/{new_price}/{current_time}",
-                        #                                             record_time=current_time))
-                        dbo.start_sell = current_time
+                    #elif old_price > new_price:
+                    #    new_change_record.append(
+                    #        models.ChangeRecord(house=dbo, event_type="price_reduce", param1=str(old_price),
+                    #                            param2=str(new_price), record_time=current_time, ))
+                    #elif old_price < new_price or new_price in full_price and get_house_price_check_time(dbo.start_sell) < current_time:
+                    #    new_change_record.append(models.ChangeRecord(house=dbo, event_type="price_refresh",
+                    #                                                 param1=f"{old_price}/{dbo.start_sell}/{get_house_price_check_time(dbo.start_sell)}",
+                    #                                                 param2=f"{new_owner}/{new_price}/{current_time}",
+                    #                                                 record_time=current_time))
+                    #    dbo.start_sell = current_time
                     else:
                         continue
 
@@ -279,16 +279,16 @@ def sync_ngld(request):
                                                                      param1=new_owner, param2=str(current_time - dbo.start_sell),
                                                                      record_time=current_time))
                         dbo.start_sell = 0
-            elif old_price > new_price:
-                new_change_record.append(
-                    models.ChangeRecord(house=dbo, event_type="price_reduce", param1=str(old_price),
-                                        param2=str(new_price), record_time=current_time, ))
-            elif old_price < new_price or new_price in full_price and get_house_price_check_time(dbo.start_sell) < current_time:
-                #new_change_record.append(models.ChangeRecord(house=dbo, event_type="price_refresh",
-                #                                             param1=f"{old_price}/{dbo.start_sell}/{get_house_price_check_time(dbo.start_sell)}",
-                #                                             param2=f"{new_price}/{current_time}",
-                #                                             record_time=current_time))
-                dbo.start_sell = current_time
+            #elif old_price > new_price:
+            #    new_change_record.append(
+            #        models.ChangeRecord(house=dbo, event_type="price_reduce", param1=str(old_price),
+            #                            param2=str(new_price), record_time=current_time, ))
+            #elif old_price < new_price or new_price in full_price and get_house_price_check_time(dbo.start_sell) < current_time:
+            #    new_change_record.append(models.ChangeRecord(house=dbo, event_type="price_refresh",
+            #                                                 param1=f"{old_price}/{dbo.start_sell}/{get_house_price_check_time(dbo.start_sell)}",
+            #                                                 param2=f"{new_price}/{current_time}",
+            #                                                 record_time=current_time))
+            #    dbo.start_sell = current_time
             else:
                 continue
 
