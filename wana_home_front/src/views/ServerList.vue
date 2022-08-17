@@ -19,6 +19,7 @@
                 <p>使用方式可查看<a href="https://www.yuque.com/9bingyin/wanahome/ngld" target="_blank">教程</a></p>
                 <p>令牌下载链接：<a href="https://cowtransfer.com/s/374e0db95a004c" target="_blank">点击下载</a> <a href="https://bit.ly/3QEn84Z" target="_blank">备用下载</a></p>
                 <p>数据库公开下载链接（每天凌晨3点更新数据）：<a href="https://bit.ly/3Qhnmir" target="_blank">点击下载</a></p>
+                <p>友情推荐：<a href="https://house.ffxiv.cyou/" target="_blank">又一个房屋记录平台</a></p>
             </b-col>
             <b-col>
                 <b-col v-for="dc in dc_server" :key="dc.dc_name" class="shadow-sm rounded m-2 p-2">
