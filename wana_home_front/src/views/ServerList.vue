@@ -15,7 +15,7 @@
                 <p><b>该网站所有数据均为玩家自发上传</b></p>
                 <p>原项目：<a href="https://github.com/nyaoouo/WanaHomeWeb" target="_blank">https://github.com/nyaoouo/WanaHomeWeb</a></p>
                 <p><a href="https://wanahomeweb.statuspage.io" target="_blank">状态页</a>（服务状态监控及维护通知）</p>
-                <p>当前版本：国服6.2</p>
+                <p>当前版本：国服6.20a</p>
                 <p>使用方式可查看<a href="https://www.yuque.com/9bingyin/wanahome/ngld" target="_blank">教程</a></p>
                 <p>令牌下载链接：<a href="https://cowtransfer.com/s/374e0db95a004c" target="_blank">点击下载</a> <a href="http://bit.ly/3XGSHPc" target="_blank">备用下载</a></p>
                 <p>数据库公开下载链接（每天凌晨3点更新数据）：<a href="http://bit.ly/3iFL7Wd" target="_blank">点击下载</a></p>
